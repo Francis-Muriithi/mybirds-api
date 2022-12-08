@@ -14,7 +14,7 @@ gem "puma", "~> 5.0"
 
 
 # Configure CORS to allow the frontend make requests
-
+gem "rack-cors"
 # Build JSON APIs with ease [https://github.com/rails/jbuilder]
 # gem "jbuilder"
 
