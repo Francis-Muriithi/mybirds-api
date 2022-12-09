@@ -3,7 +3,7 @@ class BirdsController < ApplicationController
 
   # GET /birds
   def index
-    @birds = Bird.all
+    @birds = Bird.all.to_json
 
     render json: @birds
   end

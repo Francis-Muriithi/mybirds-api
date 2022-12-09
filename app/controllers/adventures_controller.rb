@@ -1,6 +1,6 @@
 class AdventuresController < ApplicationController
     def index
-        adventures = Adventure.all 
+        adventures = Adventure.all.to_json
         render json: adventures
     end
 
